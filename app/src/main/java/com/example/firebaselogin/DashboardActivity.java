@@ -130,7 +130,9 @@ public class DashboardActivity extends AppCompatActivity {
         if(start >= comments.size()){
             return;
         }
-        Toast.makeText(DashboardActivity.this, "Loaded more data!", Toast.LENGTH_LONG).show();
+        if(start > 0) {
+            Toast.makeText(DashboardActivity.this, "Loaded more data!", Toast.LENGTH_LONG).show();
+        }
         ArrayList<Comment> dataToAdd = new ArrayList<>();
         for(int i = start; i < Math.min(start+100, comments.size()); i++){
             dataToAdd.add(comments.get(i));
