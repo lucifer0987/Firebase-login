@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Firebase Login</string>
+    <string name="hey_njoin_us">Hey!\nJoin Us</string>
+    <string name="your_good_name">Your Good Name</string>
+    <string name="john_doe">John Doe</string>
+    <string name="your_sweet_email">Your Sweet Email</string>
+    <string name="email_placeholder">email@domain.com</string>
+    <string name="your_strong_password">Your Strong Password</string>
+    <string name="your_password">Your Password</string>
+    <string name="confirm_your_password">Confirm Your Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="comment_goes_here">Comment goes here</string>
+    <string name="log_out">Log Out</string>
+    <string name="some_error_occured_please_try_again_later">Some Error occured, Please try again later!</string>
+</resources>

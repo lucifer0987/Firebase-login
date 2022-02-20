@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:cardCornerRadius="28dp"
+    android:padding="12dp"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="@color/yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/comment_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_good_name"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:fontFamily="@font/sfprobold"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/comment_email"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_placeholder"
+            android:textColor="#2E2D2D"
+            android:textSize="16sp"
+            android:fontFamily="@font/open_sans_semibold" />
+
+        <TextView
+            android:id="@+id/comment_body"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comment_goes_here"
+            android:textColor="#2E2D2D"
+            android:textSize="16sp"
+            android:fontFamily="@font/open_sans" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
